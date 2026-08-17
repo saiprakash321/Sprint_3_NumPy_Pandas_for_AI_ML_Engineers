@@ -1,4 +1,4 @@
-# NumPy & Pandas for AI/ML Engineers 🔢🐼
+# NumPy & Pandas for AI/ML Engineers
 
 A structured and practical learning journey covering NumPy and Pandas concepts used in Data Science, Machine Learning, and Artificial Intelligence.
 
