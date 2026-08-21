@@ -1,169 +1,199 @@
-# NumPy & Pandas for AI/ML Engineers
+# NumPy & Pandas for AI/ML Engineers 📊🐍
 
-A structured and practical learning repository covering NumPy and Pandas concepts used in Data Science, Machine Learning, and Artificial Intelligence.
+A structured and practical learning journey covering NumPy and Pandas concepts used in Data Science, Machine Learning, and Artificial Intelligence.
 
-This repository documents my hands-on learning, Python implementations, coding exercises, data analysis practices, and dataset preparation techniques.
-
----
-
-## About This Repository
-
-This repository was created as part of my AI/ML learning journey.
-
-The main focus is on building a strong foundation in:
-
-- Numerical computing with NumPy
-- Data manipulation with Pandas
-- Data inspection and analysis
-- Data cleaning and preprocessing
-- Dataset transformation and combination
-- Date, time, and string operations
-- Missing value handling
-- Performance optimization
-- Practical coding exercises
-
-The notebooks contain explanations, examples, Python implementations, and practice exercises for each topic.
+This repository contains my learning, practice, Python implementations, coding exercises, and Jupyter Notebooks completed as part of Sprint 3.
 
 ---
 
-## Learning Roadmap
+## 🎯 Learning Objectives
 
-### NumPy
+The main goal of this repository is to build a strong practical understanding of NumPy and Pandas and learn how they are used for data analysis, data preparation, and Machine Learning workflows.
+
+- Understand NumPy fundamentals and array operations.
+- Practice mathematical, statistical, and random operations using NumPy.
+- Build a strong foundation in Pandas Series and DataFrames.
+- Learn how to read, write, inspect, select, and manipulate data.
+- Understand grouping, aggregation, and dataset combination techniques.
+- Work with date, time, and string data.
+- Learn how to identify and handle missing values.
+- Understand Pandas performance and memory optimization.
+- Apply NumPy and Pandas concepts through practical coding exercises.
+
+---
+
+## 📚 Topics Covered
+
+### NumPy Fundamentals
 
 - NumPy Basics
-- Mathematical Operations
-- Random Module
+- NumPy Mathematical Operations
+- NumPy Random Module
+- Statistical Operations
+- Linear Algebra Operations
+- Broadcasting
+- Random Numbers and Distributions
 
-### Pandas
+### Pandas Fundamentals
 
 - Introduction to Pandas
-- Reading & Writing Data
-- Data Inspection
-- Selecting & Filtering Data
-- Data Manipulation
-- Grouping & Aggregation
-- Combining Datasets
-- Date & Time Operations
-- String Operations
-- Missing Values
-- Performance Optimization
-- Mini Assessment
+- Series
+- DataFrame
+- Creating DataFrames
+- Data Types
+- Index and Columns
+
+### Reading & Writing Data
+
+- CSV Files
+- Excel Files
+- JSON Files
+- Parquet Files
+- Pickle Files
+- SQL Tables
+- Reading Multiple Files
+- File Path Handling
+
+### Data Inspection
+
+- `head()`
+- `tail()`
+- `sample()`
+- `info()`
+- `describe()`
+- `shape`
+- `columns`
+- `dtypes`
+- `memory_usage()`
+- `nunique()`
+- `value_counts()`
+
+### Data Selection & Filtering
+
+- `loc`
+- `iloc`
+- Boolean Indexing
+- Filtering Rows
+- `query()`
+- `isin()`
+- `between()`
+- Sorting Data
+
+### Data Manipulation
+
+- Rename Columns
+- Drop Rows
+- Drop Columns
+- Insert Columns
+- `assign()`
+- `apply()`
+- `map()`
+- `replace()`
+- Duplicate Handling
+
+### Grouping & Aggregation
+
+- `groupby()`
+- `agg()`
+- `transform()`
+- `filter()`
+- Pivot Tables
+- Crosstab
+
+### Combining Datasets
+
+- `concat()`
+- `merge()`
+- `join()`
+- `append()` Deprecation and Alternatives
+- `combine_first()`
+
+### Date & Time Operations
+
+- Datetime
+- Timestamp
+- Date Parsing
+- Timedelta
+- Time Zones
+- Extracting Date Features
+
+### String Operations
+
+- `lower()`
+- `upper()`
+- `strip()`
+- `split()`
+- `contains()`
+- `replace()`
+- Regular Expressions (Regex)
+
+### Missing Values
+
+- `isnull()`
+- `notnull()`
+- `dropna()`
+- `fillna()`
+- `interpolate()`
+- Missing Value Handling Strategies
+
+### Performance Optimization
+
+- Vectorization
+- `apply()` vs Loops
+- Memory Optimization
+- Category Data Type
+- Efficient Pandas Practices
+
+### Assessment
+
+- NumPy and Pandas Concept Questions
+- Python Coding Exercises
+- Data Analysis Exercises
+- Practical Mini Assessment
 
 ---
 
-## Notebook Structure
-
-| No. | Notebook | Main Topics |
-|---|---|---|
-| 01 | `01_NumPy_Basics.ipynb` | Arrays, dimensions, indexing, slicing, reshaping, broadcasting |
-| 02 | `02_NumPy_Math.ipynb` | Statistical and mathematical operations, linear algebra |
-| 03 | `03_NumPy_Random.ipynb` | Random numbers, seed, integers, choice, shuffle, distributions |
-| 04 | `04_Pandas_Basics.ipynb` | Series, DataFrame, data types, index, columns |
-| 05 | `05_File_Operations.ipynb` | CSV, Excel, JSON, Parquet, Pickle, SQL, file paths |
-| 06 | `06_Data_Inspection.ipynb` | `head()`, `tail()`, `info()`, `describe()`, `shape`, `dtypes` |
-| 07 | `07_Data_Selection.ipynb` | `loc`, `iloc`, filtering, `query()`, `isin()`, `between()` |
-| 08 | `08_Data_Manipulation.ipynb` | Rename, drop, insert, `assign()`, `apply()`, `map()`, `replace()` |
-| 09 | `09_GroupBy.ipynb` | `groupby()`, `agg()`, `transform()`, `filter()`, Pivot Tables, Crosstab |
-| 10 | `10_Merging_Data.ipynb` | `concat()`, `merge()`, `join()`, `combine_first()`, `append()` deprecation |
-| 11 | `11_Date_Time.ipynb` | Datetime, Timestamp, parsing, Timedelta, time zones, date features |
-| 12 | `12_String_Operations.ipynb` | `lower()`, `upper()`, `strip()`, `split()`, `contains()`, `replace()`, Regex |
-| 13 | `13_Missing_Values.ipynb` | `isnull()`, `notnull()`, `dropna()`, `fillna()`, `interpolate()` |
-| 14 | `14_Performance_Optimization.ipynb` | Vectorization, `apply()` vs loops, memory optimization, category data |
-| 15 | `15_Mini_Assessment.ipynb` | NumPy and Pandas coding and conceptual assessment |
-
----
-
-## Key Skills Practiced
-
-### NumPy
-
-- Array creation and manipulation
-- Mathematical operations
-- Statistical calculations
-- Broadcasting
-- Random data generation
-- Linear algebra operations
-
-### Pandas
-
-- Series and DataFrame operations
-- Reading and writing datasets
-- Data inspection
-- Data selection and filtering
-- Data manipulation
-- Grouping and aggregation
-- Combining datasets
-- Date and time handling
-- String processing
-- Missing value handling
-- Performance optimization
-
----
-
-## Practical Data Handling
-
-The repository also includes practice datasets used during the learning process, including:
-
-- CSV
-- JSON
-- Excel
-- Parquet
-- Pickle
-- SQLite database
-
-These files were used to practice reading, writing, transforming, and analyzing data with Pandas.
-
----
-
-## Mini Assessment
-
-The final notebook contains a practical assessment covering the concepts learned throughout the sprint.
-
-It includes:
-
-- NumPy coding exercises
-- Pandas operations
-- Data filtering
-- GroupBy and aggregation
-- Data merging
-- Missing value handling
-- Statistical calculations
-- Memory optimization
-
----
-
-## Learning Approach
-
-Each notebook follows a practical learning approach:
-
-1. Understand the concept
-2. Study a real-world use case
-3. Explore a business or AI/ML use case
-4. Implement the concept in Python
-5. Observe the output
-6. Practice common use cases
-7. Apply the concept through assessment exercises
-
----
-
-## Technologies Used
+## 🛠️ Tools & Technologies
 
 - Python
 - NumPy
 - Pandas
 - Jupyter Notebook
 - SQLite
-- Git
-- GitHub
+- Git & GitHub
 
 ---
 
-## Repository Goal
+## 📊 Notebook Progress
 
-The goal of this repository is to build a strong and practical foundation in NumPy and Pandas for future work in:
+| **No.** | **Topic** | **Status** |
+|--------:|-----------|------------|
+| 01 | NumPy Basics | Completed |
+| 02 | NumPy Mathematical Operations | Completed |
+| 03 | NumPy Random Module | Completed |
+| 04 | Introduction to Pandas | Completed |
+| 05 | Reading & Writing Data | Completed |
+| 06 | Data Inspection | Completed |
+| 07 | Selecting & Filtering Data | Completed |
+| 08 | Data Manipulation | Completed |
+| 09 | Grouping & Aggregation | Completed |
+| 10 | Combining Datasets | Completed |
+| 11 | Date & Time Operations | Completed |
+| 12 | String Operations | Completed |
+| 13 | Missing Values | Completed |
+| 14 | Performance Optimization | Completed |
+| 15 | Mini Assessment | Completed |
 
-- Data Science
-- Machine Learning
-- Artificial Intelligence
-- Data Analysis
-- Data Preprocessing
+---
+
+## 📈 Progress Summary
+
+Completed all 15 NumPy and Pandas learning modules with practical Python implementations and coding exercises.
+
+The learning journey covered numerical computing, data analysis, data cleaning, data manipulation, dataset preparation, and practical Pandas workflows used in Data Science and Machine Learning.
+
+---
+
+## 👨‍💻 Author
+
+Saiprakash
